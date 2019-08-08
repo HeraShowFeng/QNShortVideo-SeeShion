@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>recyclerview-v7</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.qiniu</group-id>
+        <name>qiniu-android-sdk</name>
+        <version>7.3.15</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>design</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.bumptech.glide</group-id>
+        <name>glide</name>
+        <version>4.9.0</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>multidex</name>
+        <version>1.0.3</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.constraint</group-id>
+        <name>constraint-layout</name>
+        <version>2.0.0-beta2</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>support-annotations</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>it.sephiroth.android.library.imagezoom</group-id>
+        <name>library</name>
+        <version>1.0.4</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.picasso</group-id>
+        <name>picasso</name>
+        <version>2.71828</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>support-v4</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1565063255036</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afc9e20c-14b8-45a2-a4d4-ea97b968d854" name="Default Changelist" comment="接入VE">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matisse/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/matisse/build.gradle" afterDir="false" />
+    </list>
+    <list id="c3ac346f-6bd2-4f69-9ead-66c8bb88f1e9" name="Revert &quot;修改百分比问题&quot;" comment="Revert &quot;修改百分比问题&quot;&#10;&#10;This reverts commit 5e1750b8" />
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PLDroidShortVideoDemo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PLDroidShortVideoDemo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PLDroidShortVideoDemo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PLDroidShortVideoDemo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/VideoEditActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/matisse/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="831">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#0#594#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/gif/test.gif">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/gif/watermark.gif">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/filters/1960s/filter.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>license</find>
+      <find>key</find>
+      <find>鉴权</find>
+      <find>EasyAR3D</find>
+      <find>connect fail</find>
+      <find>send_prop_msg return err -1</find>
+      <find>fab_play</find>
+      <find>english</find>
+      <find>playbackA</find>
+      <find>水印</find>
+      <find>SXTe</find>
+      <find>water</find>
+      <find>SXTemplate</find>
+      <find>nativeAddWatermark</find>
+      <find>addWatermark</find>
+      <find>SXTemplateRender</find>
+      <find>mSectionManager.concatSections(listener)</find>
+      <find>begin</find>
+      <find>setM</find>
+      <find>audiomix</find>
+      <find>concatSec</find>
+      <find>onAudioFrameAvailable</find>
+      <find>AudioRecord</find>
+      <find>混音</find>
+      <find>标记</find>
+      <find>ection</find>
+      <find>mMusicAudioExtractor</find>
+      <find>mOnAdjustListener</find>
+      <find>mAudioMixLock</find>
+      <find>mOnOutputFormatListener</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>VETemplateListActivity</replace>
+      <replace>VETemplateListAdapter</replace>
+      <replace>VELivePreviewActivity</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/sxve</dir>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity</dir>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo</dir>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/ar</dir>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve</dir>
+      <dir>$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="MixAudio" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/VeTemplateListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/VideoClipActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/view/SXProgressDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/adapter/ColorListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/view/GroupThumbView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/view/RoundColorView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/adapter/FontListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/view/TestAssetEditLayout.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/view/VideoClipLayout.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/template/Flash/datas/data0.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/view/VerticalSeekBar.java" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/ArRecordActivity.java" />
+        <option value="$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/ShortVideoEditorCore.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/VideoMixRecordConfigActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ve_live_preview.xml" />
+        <option value="$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/SectionManager.java" />
+        <option value="$PROJECT_DIR$/../../../../AndroidStudio/DeviceExplorer/meitu-mp1603-MA6LHMB782202855/data/data/com.qiniu.pili.droid.shortvideo.demo/files/status.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/VeLivePreviewActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/TemplateEditActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/VeFunctionActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/model/Template.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/adapter/VeTemplateListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/util/AssetsUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/VeTemplateListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_preview.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ve_sample.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_video_clip.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sxve_item_color.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sxve_sx_vv.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sxve_text_asset_edit.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_template_edit.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/VeFunctionActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/view/SectionProgressBar.java" />
+        <option value="$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/ShortAudioRecorderCore.java" />
+        <option value="$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/PLAudioMixMode.java" />
+        <option value="$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/transcoder/audio/AudioMixer.java" />
+        <option value="$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/encode/HWEncoderBase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/VideoRecordActivity.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/../PLDroidShortVideo/library/build.gradle" />
+        <option value="$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/process/audio/MultiAudioComposer.java" />
+        <option value="$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/ShortVideoTranscoderCore.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/matisse/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PLDroidShortVideoDemo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PLDroidShortVideoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLDroidShortVideoDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="meitu-mp1603-MA6LHMB782202855" />
+    <property name="DEBUGGABLE_PROCESS" value="com.qiniu.pili.droid.shortvideo.demo" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="MA6LHMB782202855" />
+    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qiniu.pili.droid.shortvideo.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/libs" />
+      <recent name="$PROJECT_DIR$/app/src/main" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/sxve/util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qiniu.pili.droid.shortvideo.demo.activity" />
+      <recent name="com.qiniu.pili.droid.shortvideo.demo.utils" />
+      <recent name="com.qiniu.pili.droid.shortvideo.demo.bean" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/libs" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/shaolongfei/Documents/work/pili-short-video-kit/Android/PLDroidShortVideoDemo/app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle./Users/shaolongfei/Documents/work/pili-short-video-kit/Android/PLDroidShortVideoDemo/app [clean]" />
+        <item itemvalue="Gradle./Users/shaolongfei/Documents/work/pili-short-video-kit/Android/PLDroidShortVideoDemo/app [clean]" />
+        <item itemvalue="Gradle./Users/shaolongfei/Documents/work/pili-short-video-kit/Android/PLDroidShortVideoDemo/app [clean]" />
+        <item itemvalue="Gradle./Users/shaolongfei/Documents/work/pili-short-video-kit/Android/PLDroidShortVideoDemo/app [clean]" />
+        <item itemvalue="Gradle./Users/shaolongfei/Documents/work/pili-short-video-kit/Android/PLDroidShortVideoDemo/app [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afc9e20c-14b8-45a2-a4d4-ea97b968d854" name="Default Changelist" comment="" />
+      <created>1563875015022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563875015022</updated>
+    </task>
+    <task id="LOCAL-00001" summary="修改录制视频时百分比与进度条问题">
+      <created>1564397782141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564397782141</updated>
+    </task>
+    <task id="LOCAL-00002" summary="接入VE">
+      <created>1564402698319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564402698319</updated>
+    </task>
+    <task id="LOCAL-00003" summary="接入VE">
+      <created>1564459790159</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564459790159</updated>
+    </task>
+    <task id="LOCAL-00004" summary="接入VE">
+      <created>1564474789588</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564474789588</updated>
+    </task>
+    <task id="LOCAL-00005" summary="接入VE">
+      <created>1564477726763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564477726763</updated>
+    </task>
+    <task id="LOCAL-00006" summary="接入VE">
+      <created>1564576875558</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564576875558</updated>
+    </task>
+    <task id="LOCAL-00007" summary="接入VE 换个姿势">
+      <created>1564580607248</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564580607248</updated>
+    </task>
+    <task id="LOCAL-00008" summary="把log去掉了">
+      <created>1564644964277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564644964277</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修复视频录制中进度条和百分比不一致问题">
+      <created>1564645694698</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564645694698</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1">
+      <created>1564647484971</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564647484971</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <created>1564656776597</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564656776598</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1">
+      <created>1564657028097</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564657028097</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1">
+      <created>1564657070326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564657070326</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <created>1564657125977</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564657125977</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1">
+      <created>1564658019320</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564658019320</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1">
+      <created>1564665350036</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564665350036</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1">
+      <created>1564665368334</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564665368334</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1">
+      <created>1564667248781</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564667248781</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1">
+      <created>1564706367755</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1564706367755</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1">
+      <created>1564726994571</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564726994571</updated>
+    </task>
+    <task id="LOCAL-00021" summary="添加资源文件">
+      <created>1564735567840</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1564735567840</updated>
+    </task>
+    <task id="LOCAL-00022" summary="添加修改码率">
+      <created>1564748411775</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1564748411775</updated>
+    </task>
+    <task id="LOCAL-00023" summary="修复进度条和百分比不一致问题">
+      <created>1564975920588</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1564975920589</updated>
+    </task>
+    <task id="LOCAL-00024" summary="修复进度条和百分比不一致问题">
+      <created>1564976942103</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564976942103</updated>
+    </task>
+    <task id="LOCAL-00025" summary="修复模板预览和添加码率倍率设置">
+      <created>1565056746333</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565056746333</updated>
+    </task>
+    <task id="LOCAL-00026" summary="删除ve旧版本的aar">
+      <created>1565056803682</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1565056803682</updated>
+    </task>
+    <task id="LOCAL-00027" summary="修改设置码率倍率">
+      <created>1565057446968</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1565057446968</updated>
+    </task>
+    <task id="LOCAL-00028" summary="接入VE">
+      <created>1565063004008</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1565063004009</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info id="Repositories" order="0" weight="0.32960597" />
+      <window_info id="Captures" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22523962" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info id="Capture Tool" order="9" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49946752" weight="0.43762377" />
+      <window_info anchor="bottom" id="TODO" order="3" weight="0.32970297" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.52079207" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.35049504" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32970297" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946752" weight="0.32871288" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32970297" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" weight="0.32970297" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.32871288" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32970297" />
+      <window_info anchor="right" id="Hierarchy" order="0" weight="0.32960597" />
+      <window_info anchor="right" id="Codota" order="1" weight="0.32960597" />
+      <window_info anchor="right" id="Device File Explorer" order="2" side_tool="true" weight="0.41799787" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.32960597" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.32960597" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改录制视频时百分比与进度条问题" />
+    <MESSAGE value="接入VE 换个姿势" />
+    <MESSAGE value="把log去掉了" />
+    <MESSAGE value="修复视频录制中进度条和百分比不一致问题" />
+    <MESSAGE value="1" />
+    <MESSAGE value="添加资源文件" />
+    <MESSAGE value="添加修改码率" />
+    <MESSAGE value="修复进度条和百分比不一致问题" />
+    <MESSAGE value="修复模板预览和添加码率倍率设置" />
+    <MESSAGE value="删除ve旧版本的aar" />
+    <MESSAGE value="修改设置码率倍率" />
+    <MESSAGE value="接入VE" />
+    <option name="LAST_COMMIT_MESSAGE" value="接入VE" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/VideoRecordActivity.java</url>
+          <line>503</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/matisse/src/main/java/com/zhihu/matisse/internal/ui/SelectedPreviewActivity.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/matisse/src/main/java/com/zhihu/matisse/internal/ui/PreviewItemFragment.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/matisse/src/main/java/com/zhihu/matisse/internal/ui/MediaSelectionFragment.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/matisse/src/main/java/com/zhihu/matisse/internal/ui/AlbumPreviewActivity.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/matisse/src/main/java/com/zhihu/matisse/ui/MatisseActivity.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sxve/src/main/java/com/shixing/sxve/ui/VideoClipActivity.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sxve/src/main/java/com/shixing/sxve/ui/TemplateEditActivity.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/media/MediaCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="2625" column="31" selection-start-line="2625" selection-start-column="31" selection-end-line="2625" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/PLMicrophoneSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="e#4811#4812#0" expanded="true" />
+            <element signature="e#4854#4855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/encode/HWAudioEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/capture/microphone/AudioManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+          <folding>
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/VideoTranscodeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/SectionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/SectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="264" column="49" lean-forward="true" selection-start-line="264" selection-start-column="49" selection-end-line="264" selection-end-column="49" />
+          <folding>
+            <element signature="e#4446#4447#0" expanded="true" />
+            <element signature="e#4496#4497#0" expanded="true" />
+            <element signature="e#11285#11421#0" expanded="true" />
+            <element signature="e#11420#11421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="671" column="13" selection-start-line="671" selection-start-column="13" selection-end-line="671" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/transcoder/audio/AudioTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/transcoder/audio/AudioResampler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/transcoder/audio/AudioEditSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/audio_mixer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/PLVideoFilterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/view/VideoMixPlayerLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/encode/HWEncoderBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/player/MultiMixAudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/PLMixAudioFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/process/video/MultiItemComposer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="112" column="44" lean-forward="true" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/PLComposeItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/process/audio/MultiAudioComposer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/view/AudioMixSettingDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/ShortVideoMixerCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/encode/EncoderBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/VideoRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="232" column="66" selection-start-line="232" selection-start-column="66" selection-end-line="232" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/PLShortVideoRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
+          <folding>
+            <element signature="e#2673#2674#0" expanded="true" />
+            <element signature="e#2713#2714#0" expanded="true" />
+            <element signature="e#4257#4258#0" expanded="true" />
+            <element signature="e#4298#4299#0" expanded="true" />
+            <element signature="e#5563#5564#0" expanded="true" />
+            <element signature="e#5617#5618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/transcoder/audio/RangeTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/player/AudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/ShortVideoRecorderCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="311" column="35" selection-start-line="311" selection-start-column="35" selection-end-line="311" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/ShortAudioRecorderCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="662" column="93" lean-forward="true" selection-start-line="662" selection-start-column="93" selection-end-line="662" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/ShortVideoEditorCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <folding>
+            <element signature="e#5082#5214#0" />
+            <element signature="e#5220#6611#0" />
+            <element signature="e#6147#6347#1" />
+            <element signature="e#6353#6467#1" />
+            <element signature="e#6617#7309#0" />
+            <element signature="e#7315#8472#0" />
+            <element signature="e#7416#7566#1" />
+            <element signature="e#7873#8073#1" />
+            <element signature="e#8079#8193#1" />
+            <element signature="e#8381#8466#1" />
+            <element signature="e#8558#9264#0" />
+            <element signature="e#8688#8719#1" />
+            <element signature="e#8805#9173#1" />
+            <element signature="e#8877#9006#1" />
+            <element signature="e#9036#9103#1" />
+            <element signature="e#9179#9258#1" />
+            <element signature="e#9270#9593#0" />
+            <element signature="e#9415#9446#1" />
+            <element signature="e#9599#10249#0" />
+            <element signature="e#9768#9856#1" />
+            <element signature="e#9916#10001#1" />
+            <element signature="e#10255#10486#0" />
+            <element signature="e#10492#10788#0" />
+            <element signature="e#10650#10728#1" />
+            <element signature="e#10794#12135#0" />
+            <element signature="e#10935#10966#1" />
+            <element signature="e#11060#11133#1" />
+            <element signature="e#11281#11339#1" />
+            <element signature="e#11345#11977#1" />
+            <element signature="e#11415#11903#1" />
+            <element signature="e#11437#11724#0" />
+            <element signature="e#11747#11889#0" />
+            <element signature="e#12141#12421#0" />
+            <element signature="e#12427#13011#0" />
+            <element signature="e#12575#12862#1" />
+            <element signature="e#12672#12788#1" />
+            <element signature="e#12794#12852#1" />
+            <element signature="e#12905#12963#1" />
+            <element signature="e#13017#13164#0" />
+            <element signature="e#13170#13322#0" />
+            <element signature="e#13328#13509#0" />
+            <element signature="e#13515#14056#0" />
+            <element signature="e#13667#13725#0" />
+            <element signature="e#14062#14324#0" />
+            <element signature="e#14330#14695#0" />
+            <element signature="e#14459#14490#1" />
+            <element signature="e#14563#14635#1" />
+            <element signature="e#14701#15051#0" />
+            <element signature="e#14827#14873#1" />
+            <element signature="e#14916#14990#1" />
+            <element signature="e#15057#15382#0" />
+            <element signature="e#15181#15226#1" />
+            <element signature="e#15269#15322#1" />
+            <element signature="e#15388#15708#0" />
+            <element signature="e#15510#15554#1" />
+            <element signature="e#15597#15649#1" />
+            <element signature="e#15714#16288#0" />
+            <element signature="e#15813#15873#1" />
+            <element signature="e#15916#15976#1" />
+            <element signature="e#16041#16282#1" />
+            <element signature="e#16071#16123#1" />
+            <element signature="e#16129#16182#1" />
+            <element signature="e#16294#16403#0" />
+            <element signature="e#16409#16780#0" />
+            <element signature="e#16531#16562#1" />
+            <element signature="e#16786#17128#0" />
+            <element signature="e#16908#16939#1" />
+            <element signature="e#17134#17468#0" />
+            <element signature="e#17252#17283#1" />
+            <element signature="e#17568#18268#0" />
+            <element signature="e#17718#17824#1" />
+            <element signature="e#17895#18088#1" />
+            <element signature="e#18094#18210#1" />
+            <element signature="e#18274#18583#0" />
+            <element signature="e#18415#18556#1" />
+            <element signature="e#18502#18546#1" />
+            <element signature="e#18589#19489#0" />
+            <element signature="e#18680#18778#1" />
+            <element signature="e#18843#18964#1" />
+            <element signature="e#18997#19112#1" />
+            <element signature="e#19221#19307#1" />
+            <element signature="e#19313#19483#1" />
+            <element signature="e#19495#19680#0" />
+            <element signature="e#19686#19877#0" />
+            <element signature="e#19883#20103#0" />
+            <element signature="e#20109#20602#0" />
+            <element signature="e#20194#20300#1" />
+            <element signature="e#20371#20422#1" />
+            <element signature="e#20428#20559#1" />
+            <element signature="e#20608#21076#0" />
+            <element signature="e#20749#20780#1" />
+            <element signature="e#21082#21968#0" />
+            <element signature="e#21217#21248#1" />
+            <element signature="e#21581#21768#1" />
+            <element signature="e#21974#22357#0" />
+            <element signature="e#22113#22144#1" />
+            <element signature="e#22363#22596#0" />
+            <element signature="e#22509#22540#1" />
+            <element signature="e#22602#22841#0" />
+            <element signature="e#22751#22782#1" />
+            <element signature="e#22847#23250#0" />
+            <element signature="e#22989#23020#1" />
+            <element signature="e#23256#23674#0" />
+            <element signature="e#23401#23432#1" />
+            <element signature="e#23680#24098#0" />
+            <element signature="e#23825#23856#1" />
+            <element signature="e#24104#24554#0" />
+            <element signature="e#24223#24254#1" />
+            <element signature="e#24406#24466#1" />
+            <element signature="e#24560#25005#0" />
+            <element signature="e#24692#24723#1" />
+            <element signature="e#24857#24917#1" />
+            <element signature="e#25011#26106#0" />
+            <element signature="e#25092#25159#1" />
+            <element signature="e#25196#25268#1" />
+            <element signature="e#25274#25370#1" />
+            <element signature="e#25472#25529#1" />
+            <element signature="e#25578#25677#1" />
+            <element signature="e#25683#25770#1" />
+            <element signature="e#25964#26051#1" />
+            <element signature="e#26112#27067#0" />
+            <element signature="e#26225#26256#1" />
+            <element signature="e#26310#26418#1" />
+            <element signature="e#26454#26551#1" />
+            <element signature="e#26723#26890#1" />
+            <element signature="e#26981#27061#1" />
+            <element signature="e#27073#27476#0" />
+            <element signature="e#27172#27310#1" />
+            <element signature="e#27482#28082#0" />
+            <element signature="e#27695#27726#1" />
+            <element signature="e#27923#28020#1" />
+            <element signature="e#28088#28688#0" />
+            <element signature="e#28333#28420#1" />
+            <element signature="e#28426#28487#1" />
+            <element signature="e#28523#28580#1" />
+            <element signature="e#28694#29072#0" />
+            <element signature="e#28877#28958#1" />
+            <element signature="e#28993#29066#1" />
+            <element signature="e#29078#29270#0" />
+            <element signature="e#29177#29239#1" />
+            <element signature="e#29276#29578#0" />
+            <element signature="e#29423#29494#1" />
+            <element signature="e#29584#30096#0" />
+            <element signature="e#29737#29837#1" />
+            <element signature="e#29858#29959#1" />
+            <element signature="e#29965#30039#1" />
+            <element signature="e#30102#30211#0" />
+            <element signature="e#30217#30332#0" />
+            <element signature="e#30338#30623#0" />
+            <element signature="e#30629#31089#0" />
+            <element signature="e#30751#31083#1" />
+            <element signature="e#30884#31073#1" />
+            <element signature="e#30958#31059#1" />
+            <element signature="e#31095#31235#0" />
+            <element signature="e#31241#40499#0" />
+            <element signature="e#31432#31463#1" />
+            <element signature="e#31519#31812#1" />
+            <element signature="e#31681#31782#1" />
+            <element signature="e#32202#32593#1" />
+            <element signature="e#32415#32524#1" />
+            <element signature="e#33018#33122#1" />
+            <element signature="e#33179#33262#1" />
+            <element signature="e#33385#38727#1" />
+            <element signature="class#33931:38419" />
+            <element signature="method#onSurfaceCreated#0;class#33931:38419" />
+            <element signature="e#34120#34196#1" />
+            <element signature="method#onSurfaceChanged#0;class#33931:38419" />
+            <element signature="e#34354#34443#1" />
+            <element signature="method#onSurfaceDestroy#0;class#33931:38419" />
+            <element signature="e#34626#34838#1" />
+            <element signature="e#34695#34774#1" />
+            <element signature="e#34881#34957#1" />
+            <element signature="method#onDrawFrame#0;class#33931:38419" />
+            <element signature="e#35186#38353#0" />
+            <element signature="e#35234#35521#1" />
+            <element signature="e#35411#35495#1" />
+            <element signature="e#35578#35674#1" />
+            <element signature="e#35901#38287#1" />
+            <element signature="e#35954#37905#1" />
+            <element signature="e#36467#37875#1" />
+            <element signature="e#37978#38261#1" />
+            <element signature="e#38123#38231#1" />
+            <element signature="e#38477#38611#1" />
+            <element signature="e#38617#38717#1" />
+            <element signature="class#38776:40418" />
+            <element signature="method#onSaveVideoSuccess#0;class#38776:40418" />
+            <element signature="e#39018#39106#1" />
+            <element signature="method#onSaveVideoFailed#0;class#38776:40418" />
+            <element signature="e#39370#39618#1" />
+            <element signature="e#39667#39755#1" />
+            <element signature="method#onSaveVideoCanceled#0;class#38776:40418" />
+            <element signature="e#40078#40159#1" />
+            <element signature="method#onProgressUpdate#0;class#38776:40418" />
+            <element signature="e#40306#40394#1" />
+            <element signature="e#40505#41118#0" />
+            <element signature="e#40595#40656#1" />
+            <element signature="e#40737#40814#1" />
+            <element signature="e#40867#41042#1" />
+            <element signature="e#41048#41112#1" />
+            <element signature="e#41124#41451#0" />
+            <element signature="e#41241#41303#1" />
+            <element signature="e#41341#41399#1" />
+            <element signature="e#41457#41622#0" />
+            <element signature="e#41549#41616#1" />
+            <element signature="e#41628#42015#0" />
+            <element signature="e#41805#41885#1" />
+            <element signature="e#41931#42009#1" />
+            <element signature="e#42021#42220#0" />
+            <element signature="e#42147#42214#1" />
+            <element signature="e#42226#43555#0" />
+            <element signature="e#42393#42615#1" />
+            <element signature="e#42553#42605#1" />
+            <element signature="e#42657#42722#1" />
+            <element signature="e#42986#43526#1" />
+            <element signature="e#43186#43277#1" />
+            <element signature="e#43561#44078#0" />
+            <element signature="e#43684#44072#1" />
+            <element signature="e#44084#44930#0" />
+            <element signature="e#44211#44376#0" />
+            <element signature="e#44386#44653#0" />
+            <element signature="e#44481#44539#1" />
+            <element signature="e#44545#44643#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/PLVideoEditSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/PLShortVideoEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="e#7330#7331#0" expanded="true" />
+            <element signature="e#7389#7390#0" expanded="true" />
+            <element signature="e#8755#8756#0" expanded="true" />
+            <element signature="e#8792#8793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/parser/RawFrameExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/AudioSpeedAdjustor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+          <folding>
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/transcoder/audio/AudioMixer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PLDroidShortVideo/library/src/main/java/com/qiniu/pili/droid/shortvideo/core/ShortVideoTranscoderCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1292" column="33" lean-forward="true" selection-start-line="1292" selection-start-column="33" selection-end-line="1292" selection-end-column="33" />
+          <folding>
+            <element signature="e#21861#23614#0" expanded="true" />
+            <element signature="e#23613#23614#0" expanded="true" />
+            <element signature="e#40864#41158#0" expanded="true" />
+            <element signature="e#41157#41158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f21eb6aeadddab25f459b5b000630c8/jars/classes.jar!/com/shixing/sxvideoengine/SXPlayerSurfaceView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-5.1.1-all/97z1ksx6lirer3kbvdnh7jtjg/gradle-5.1.1/src/core-api/org/gradle/api/artifacts/dsl/DependencyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#17833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f21eb6aeadddab25f459b5b000630c8/jars/classes.jar!/com/shixing/sxvideoengine/SXVideoRenderUpdater.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f21eb6aeadddab25f459b5b000630c8/jars/classes.jar!/com/shixing/sxvideoengine/SXRenderListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/gif/test.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/gif/watermark.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/filters/1960s/filter.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/pldroid-shortvideo-2.2.0.jar!/com/qiniu/pili/droid/shortvideo/PLShortVideoEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qiniu/pili/droid/shortvideo/demo/activity/VideoEditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matisse/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

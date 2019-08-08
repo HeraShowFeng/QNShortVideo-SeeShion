@@ -1,0 +1,128 @@
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>apply plugin: 'com.android.application'\n\nrepositories {\n    flatDir {\n        dirs 'libs'\n    }\n}\n\nandroid {\n    compileSdkVersion 25\n    buildToolsVersion \"25.0.2\"\n\n    defaultConfig {\n        applicationId \"com.qiniu.pili.droid.shortvideo.demo\"\n        minSdkVersion 18\n        targetSdkVersion 25\n        versionCode 26\n        versionName \"2.2.0\"\n        multiDexEnabled true\n        buildConfigField \"long\", \"BUILD_TIMESTAMP\", System.currentTimeMillis() + \"L\"\n        ndk {\n            abiFilters 'armeabi-v7a'\n        }\n    }\n    buildTypes {\n        release {\n            minifyEnabled false\n            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'\n        }\n    }\n}\n\ndependencies {\n    compile 'com.qiniu:qiniu-android-sdk:7.3.11'\n    compile files('libs/pldroid-shortvideo-2.2.0.jar')\n    compile files('libs/pldroid-player-2.1.8.jar')\n    compile files('libs/EasyAR.jar')\n    compile files('libs/EasyAR3D.jar')\n\n    compile 'com.android.support:multidex:1.0.1'\n    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'\n    compile 'com.android.support:recyclerview-v7:25.3.1'\n    compile 'com.android.support:appcompat-v7:25.3.1'\n    compile 'com.android.support:design:25.3.1'\n    compile 'com.android.support.constraint:constraint-layout:1.0.1'\n\n    compile files('libs/universal-image-loader-1.9.4.jar')\n    compile 'com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.10.6'\n    compile 'com.github.bumptech.glide:glide:3.7.0'\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(date 1564645694000)
++++ app/build.gradle	(date 1564642952000)
+@@ -7,16 +7,17 @@
+ }
+ 
+ android {
+-    compileSdkVersion 25
+-    buildToolsVersion "25.0.2"
++    compileSdkVersion 28
++    buildToolsVersion "28.0.3"
+ 
+     defaultConfig {
+         applicationId "com.qiniu.pili.droid.shortvideo.demo"
+         minSdkVersion 18
+-        targetSdkVersion 25
++        targetSdkVersion 28
+         versionCode 26
+         versionName "2.2.0"
+         multiDexEnabled true
++        vectorDrawables.useSupportLibrary = true
+         buildConfigField "long", "BUILD_TIMESTAMP", System.currentTimeMillis() + "L"
+         ndk {
+             abiFilters 'armeabi-v7a'
+@@ -37,14 +38,14 @@
+     compile files('libs/EasyAR.jar')
+     compile files('libs/EasyAR3D.jar')
+ 
+-    compile 'com.android.support:multidex:1.0.1'
+-    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'
+-    compile 'com.android.support:recyclerview-v7:25.3.1'
+-    compile 'com.android.support:appcompat-v7:25.3.1'
+-    compile 'com.android.support:design:25.3.1'
+-    compile 'com.android.support.constraint:constraint-layout:1.0.1'
++    implementation 'com.android.support:multidex:1.0.3'
++    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'
++    implementation 'com.android.support:recyclerview-v7:28.0.0'
++    implementation 'com.android.support:appcompat-v7:28.0.0'
++    implementation 'com.android.support:design:28.0.0'
++    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+ 
+-    compile files('libs/universal-image-loader-1.9.4.jar')
+-    compile 'com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.10.6'
+-    compile 'com.github.bumptech.glide:glide:3.7.0'
++    implementation files('libs/universal-image-loader-1.9.4.jar')
++    implementation 'com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.10.6'
++    implementation 'com.github.bumptech.glide:glide:3.7.0'
+ }
+\ No newline at end of file
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Top-level build file where you can add configuration options common to all sub-projects/modules.\n\nbuildscript {\n    repositories {\n        jcenter()\n    }\n    dependencies {\n        classpath 'com.android.tools.build:gradle:2.2.3'\n\n        // NOTE: Do not place your application dependencies here; they belong\n        // in the individual module build.gradle files\n    }\n}\n\nallprojects {\n    repositories {\n        jcenter()\n    }\n}\n\ntask clean(type: Delete) {\n    delete rootProject.buildDir\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build.gradle	(date 1564645694000)
++++ build.gradle	(date 1564479899000)
+@@ -3,10 +3,10 @@
+ buildscript {
+     repositories {
+         jcenter()
++        google()
+     }
+     dependencies {
+-        classpath 'com.android.tools.build:gradle:2.2.3'
+-
++        classpath 'com.android.tools.build:gradle:3.4.2'
+         // NOTE: Do not place your application dependencies here; they belong
+         // in the individual module build.gradle files
+     }
+@@ -15,6 +15,7 @@
+ allprojects {
+     repositories {
+         jcenter()
++        google()
+     }
+ }
+ 
+Index: app/src/main/res/drawable/btn_close.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<vector xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    android:width=\"24dp\"\n    android:height=\"24dp\"\n    android:viewportWidth=\"24\"\n    android:viewportHeight=\"24\">\n\n    <path\n        android:fillColor=\"@android:color/white\"\n        android:pathData=\"M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z \" />\n</vector>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/btn_close.xml	(date 1564645694000)
++++ app/src/main/res/drawable/btn_close.xml	(date 1564479899000)
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <vector xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
+     android:width="24dp"
+     android:height="24dp"
+     android:viewportWidth="24"
+@@ -7,5 +8,6 @@
+ 
+     <path
+         android:fillColor="@android:color/white"
+-        android:pathData="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z " />
++        android:pathData="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z "
++        tools:ignore="VectorRaster" />
+ </vector>
+\ No newline at end of file
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Mon Dec 28 10:00:20 PST 2015\ndistributionBase=GRADLE_USER_HOME\ndistributionPath=wrapper/dists\nzipStoreBase=GRADLE_USER_HOME\nzipStorePath=wrapper/dists\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-2.14.1-all.zip\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gradle/wrapper/gradle-wrapper.properties	(date 1564645694000)
++++ gradle/wrapper/gradle-wrapper.properties	(date 1564479899000)
+@@ -1,6 +1,6 @@
+-#Mon Dec 28 10:00:20 PST 2015
++#Tue Jul 23 17:46:34 CST 2019
+ distributionBase=GRADLE_USER_HOME
+ distributionPath=wrapper/dists
+ zipStoreBase=GRADLE_USER_HOME
+ zipStorePath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-2.14.1-all.zip
++distributionUrl=https\://services.gradle.org/distributions/gradle-5.1.1-all.zip

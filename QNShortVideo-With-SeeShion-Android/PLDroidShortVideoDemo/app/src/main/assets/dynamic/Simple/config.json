@@ -1,0 +1,200 @@
+{
+	"fps": 15,
+	"version": 1,
+	"type": 2,
+	"size": [544, 960],
+	"bg": "#ffffffff",
+	"entrance": {
+		"name": "comp0",
+		"duration": 45,
+		"size": [544, 960],
+		"bg": "#ffffffff",
+		"layers": [{
+			"source": "assetkey0",
+			"type": 129,
+			"blend": 0,
+			"matte": 0,
+			"parent": -1,
+			"enabled": true,
+			"range": [0, 0, 45],
+			"effects": [],
+			"transform": "data0.json"
+		}]
+	},
+	"exit": {
+		"name": "comp7",
+		"duration": 45,
+		"size": [544, 960],
+		"bg": "#ffffffff",
+		"layers": [{
+			"source": "assetkey0",
+			"type": 129,
+			"blend": 0,
+			"matte": 0,
+			"parent": -1,
+			"enabled": true,
+			"range": [0, 0, 45],
+			"effects": [],
+			"transform": "data1.json"
+		}]
+	},
+	"sources": [{
+		"name": "comp1",
+		"duration": 100,
+		"size": [544, 960],
+		"bg": "#ff000000",
+		"layers": [{
+			"source": "assetkey3",
+			"type": 129,
+			"blend": 0,
+			"matte": 0,
+			"parent": -1,
+			"enabled": true,
+			"range": [0, 0, 100],
+			"effects": [],
+			"transform": {
+				"p": [272.0, 480.0],
+				"a": [750.0, 750.0],
+				"s": [0.64, 0.64],
+				"t": 1.0,
+				"r": 0.0
+			}
+		}]
+	}, {
+		"name": "comp3",
+		"duration": 100,
+		"size": [544, 960],
+		"bg": "#ff000000",
+		"layers": [{
+			"source": "assetkey3",
+			"type": 129,
+			"blend": 0,
+			"matte": 0,
+			"parent": -1,
+			"enabled": true,
+			"range": [0, 0, 100],
+			"effects": [],
+			"transform": {
+				"p": [272.0, 480.0],
+				"a": [750.0, 750.0],
+				"s": [0.64, 0.64],
+				"t": 1.0,
+				"r": 0.0
+			}
+		}]
+	}, {
+		"name": "comp5",
+		"duration": 100,
+		"size": [544, 960],
+		"bg": "#ff000000",
+		"layers": [{
+			"source": "assetkey3",
+			"type": 129,
+			"blend": 0,
+			"matte": 0,
+			"parent": -1,
+			"enabled": true,
+			"range": [0, 0, 100],
+			"effects": [],
+			"transform": {
+				"p": [272.0, 480.0],
+				"a": [750.0, 750.0],
+				"s": [0.64, 0.64],
+				"t": 1.0,
+				"r": 0.0
+			}
+		}]
+	}],
+	"segments": [{
+		"name": "comp2",
+		"duration": 45,
+		"size": [544, 960],
+		"bg": "#ff000000",
+		"layers": [{
+			"source": "assetkey5",
+			"type": 4097,
+			"blend": 0,
+			"matte": 0,
+			"parent": -1,
+			"enabled": true,
+			"range": [0, 0, 100],
+			"effects": [],
+			"transform": "data2.json"
+		}]
+	}, {
+		"name": "comp4",
+		"duration": 45,
+		"size": [544, 960],
+		"bg": "#ff000000",
+		"layers": [{
+			"source": "assetkey7",
+			"type": 4097,
+			"blend": 0,
+			"matte": 0,
+			"parent": -1,
+			"enabled": true,
+			"range": [0, 0, 100],
+			"effects": [],
+			"transform": "data3.json"
+		}]
+	}, {
+		"name": "comp6",
+		"duration": 45,
+		"size": [544, 960],
+		"bg": "#ff000000",
+		"layers": [{
+			"source": "assetkey9",
+			"type": 4097,
+			"blend": 0,
+			"matte": 0,
+			"parent": -1,
+			"enabled": true,
+			"range": [0, 0, 100],
+			"effects": [],
+			"transform": "data4.json"
+		}]
+	}],
+	"assets": [{
+		"key": "assetkey0",
+		"name": "asset1.png",
+		"type": 1,
+		"num": 0,
+		"size": [544, 960]
+	}, {
+		"key": "assetkey11",
+		"name": "comp7",
+		"type": 3,
+		"num": 0,
+		"size": [544, 960]
+	}, {
+		"key": "assetkey2",
+		"name": "comp0",
+		"type": 3,
+		"num": 0,
+		"size": [544, 960]
+	}, {
+		"key": "assetkey3",
+		"name": "asset4.png",
+		"type": 1,
+		"num": 0,
+		"size": [1500, 1500]
+	}, {
+		"key": "assetkey5",
+		"name": "comp1",
+		"type": 3,
+		"num": 0,
+		"size": [544, 960]
+	}, {
+		"key": "assetkey7",
+		"name": "comp3",
+		"type": 3,
+		"num": 0,
+		"size": [544, 960]
+	},  {
+		"key": "assetkey9",
+		"name": "comp5",
+		"type": 3,
+		"num": 0,
+		"size": [544, 960]
+	}]
+}

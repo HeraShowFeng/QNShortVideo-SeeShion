@@ -35,11 +35,7 @@ import static com.zhihu.matisse.MimeType.JPEG;
 import static com.zhihu.matisse.MimeType.PNG;
 
 
-/**
- * @创建者 邵龙飞
- * @创建时间 2019-07-29 18:58
- * @描述
- */
+
 public class VeFunctionActivity extends AppCompatActivity {
 
     public static final  String TEMPLATE_FOLDER = "template";

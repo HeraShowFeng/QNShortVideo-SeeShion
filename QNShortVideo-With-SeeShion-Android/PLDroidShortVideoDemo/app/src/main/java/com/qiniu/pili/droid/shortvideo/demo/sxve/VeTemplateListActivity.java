@@ -25,7 +25,6 @@ import com.qiniu.pili.droid.shortvideo.demo.sxve.util.AssetsUtils;
 import com.qiniu.pili.droid.shortvideo.demo.sxve.view.SXProgressDialog;
 
 
-
 import com.shixing.sxvideoengine.SXRenderListener;
 import com.shixing.sxvideoengine.SXTemplate;
 import com.shixing.sxvideoengine.SXTemplateRender;
@@ -62,13 +61,13 @@ import static com.zhihu.matisse.MimeType.WEBM;
 
 public class VeTemplateListActivity extends AppCompatActivity {
 
-    private static final int              REQUEST_DYNAMIC = 21;
-    public static final  int              REQUEST_STORAGE_PERMISSION = 31;
-    private              String           mFolderName;
+    private static final int REQUEST_DYNAMIC = 21;
+    public static final int REQUEST_STORAGE_PERMISSION = 31;
+    private String mFolderName;
     private Template mTemplate;
-    private              SXProgressDialog mDialog;
-    private              Handler          mHandler;
-    private              File             mFolder;
+    private SXProgressDialog mDialog;
+    private Handler mHandler;
+    private File mFolder;
 
     public static void start(Context context, String folder, String title) {
         Intent starter = new Intent(context, VeTemplateListActivity.class);
@@ -143,12 +142,10 @@ public class VeTemplateListActivity extends AppCompatActivity {
 
     private void onClick(Template template) {
         if (mFolderName.equals(VeFunctionActivity.TEMPLATE_FOLDER)) {
-            TemplateEditActivity.start(VeTemplateListActivity.this,
-                    new File(mFolder, template.folder).getPath());
+            TemplateEditActivity.start(VeTemplateListActivity.this, new File(mFolder, template.folder).getPath());
         } else {
             mTemplate = template;
-            if (ContextCompat.checkSelfPermission(VeTemplateListActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                    != PackageManager.PERMISSION_GRANTED) {
+            if (ContextCompat.checkSelfPermission(VeTemplateListActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(VeTemplateListActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_STORAGE_PERMISSION);
             } else {
                 pickAssets();
@@ -157,15 +154,7 @@ public class VeTemplateListActivity extends AppCompatActivity {
     }
 
     private void pickAssets() {
-        Matisse.from(this)
-                .choose(EnumSet.of(JPEG, PNG, MPEG, MP4, QUICKTIME, THREEGPP, THREEGPP2, MKV, WEBM, TS, AVI), false)
-                .showSingleMediaType(true)
-                .maxSelectable(100)
-                .setMinSelect(3)
-                .picDetail(false)
-                .countable(true)
-                .theme(R.style.Matisse_Dracula)
-                .forResult(REQUEST_DYNAMIC);
+        Matisse.from(this).choose(EnumSet.of(JPEG, PNG, MPEG, MP4, QUICKTIME, THREEGPP, THREEGPP2, MKV, WEBM, TS, AVI), false).showSingleMediaType(true).maxSelectable(100).setMinSelect(3).picDetail(false).countable(true).theme(R.style.Matisse_Dracula).forResult(REQUEST_DYNAMIC);
     }
 
     private ArrayList<Template> parseJson(String infoJson) {
@@ -175,11 +164,7 @@ public class VeTemplateListActivity extends AppCompatActivity {
             JSONArray info = new JSONArray(infoJson);
             for (int i = 0; i < info.length(); i++) {
                 JSONObject object = info.getJSONObject(i);
-                Template template = new Template(
-                        object.getString("name"),
-                        object.getString("folder"),
-                        object.getString("desciption")
-                );
+                Template template = new Template(object.getString("name"), object.getString("folder"), object.getString("desciption"));
                 templates.add(template);
             }
         } catch (JSONException e) {

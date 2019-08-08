@@ -20,12 +20,12 @@ import java.util.UUID;
 
 public class TextUiModel extends AssetUi {
 
-    private final int          mMax;
-    private final int[]        mArea;
-    private final Bitmap       mBitmap;
-    private final Rect         mRect;
-    private final Paint        mRectPaint;
-    private       GroupModel   mGroupModel;
+    private final int mMax;
+    private final int[] mArea;
+    private final Bitmap mBitmap;
+    private final Rect mRect;
+    private final Paint mRectPaint;
+    private GroupModel mGroupModel;
     private final SXTextCanvas mTextCanvas;
 
     public TextUiModel(String folder, JSONObject asset, Bitmap bitmap, AssetDelegate delegate, Size size) throws JSONException {

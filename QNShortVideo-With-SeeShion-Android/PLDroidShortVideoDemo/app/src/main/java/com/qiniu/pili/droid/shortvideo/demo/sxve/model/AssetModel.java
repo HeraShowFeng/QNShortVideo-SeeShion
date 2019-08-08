@@ -15,10 +15,10 @@ public class AssetModel {
     public static final int TYPE_TEXT = 2;
 
     public final Size size;
-    public final int  type;
+    public final int type;
 
-    public final  AssetUi ui;
-    private final Bitmap  mBitmap;
+    public final AssetUi ui;
+    private final Bitmap mBitmap;
 
     public AssetModel(String folder, JSONObject asset, AssetDelegate delegate) throws JSONException {
         String name = folder + "/assets/" + asset.getString("name");

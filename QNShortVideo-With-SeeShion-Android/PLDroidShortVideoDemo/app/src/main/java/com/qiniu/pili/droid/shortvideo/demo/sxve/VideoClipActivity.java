@@ -38,17 +38,17 @@ public class VideoClipActivity extends AppCompatActivity implements RadioGroup.O
     public static final String KEY_VIDEO_PATH = "KEY_VIDEO_PATH";
     public static final String CLICP_PATH = "path";
 
-    private int                      mTemplateWidth;
-    private int                      mTemplateHeight;
-    private float                    mTemplateDuration;
-    private CheckBox                 mCbMute;
-    private SXVideoView              mVideoView;
-    private String                   mVideoPath;
-    private TimelineAdapter          mTimelineAdapter;
-    private RecyclerView             mThumbList;
+    private int mTemplateWidth;
+    private int mTemplateHeight;
+    private float mTemplateDuration;
+    private CheckBox mCbMute;
+    private SXVideoView mVideoView;
+    private String mVideoPath;
+    private TimelineAdapter mTimelineAdapter;
+    private RecyclerView mThumbList;
     private HashMap<Integer, Bitmap> mData;
-    private int[]                    mTimeUs;
-    private SXProgressDialog         mDialog;
+    private int[] mTimeUs;
+    private SXProgressDialog mDialog;
 
     private int mScrollX;
     private int mTotalWidth;

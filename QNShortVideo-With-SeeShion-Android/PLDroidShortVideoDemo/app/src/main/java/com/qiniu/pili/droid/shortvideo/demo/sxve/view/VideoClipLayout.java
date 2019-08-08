@@ -11,8 +11,8 @@ import com.qiniu.pili.droid.shortvideo.demo.R;
 public class VideoClipLayout extends FrameLayout {
 
     private SXVideoView mVideoView;
-    private int         mTemplateWidth;
-    private int         mTemplateHeight;
+    private int mTemplateWidth;
+    private int mTemplateHeight;
 
     public VideoClipLayout(Context context) {
         super(context);

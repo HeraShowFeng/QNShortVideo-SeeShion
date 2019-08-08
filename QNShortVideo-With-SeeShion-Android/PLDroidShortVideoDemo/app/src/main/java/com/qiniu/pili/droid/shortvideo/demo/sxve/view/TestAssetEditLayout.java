@@ -32,15 +32,15 @@ import com.qiniu.pili.droid.shortvideo.demo.sxve.util.GroupThumbDecoration;
 import java.util.ArrayList;
 
 public class TestAssetEditLayout extends FrameLayout implements RadioGroup.OnCheckedChangeListener {
-    private static final String             TAG = "TestAssetEditLayout";
-    private              View               editLayout;
-    private              View               fontList;
-    private              View               colorLayout;
-    private              Activity           mActivity;
-    private              CounterEditText    mEditText;
-    private              InputMethodManager mInputMethodManager;
-    private              TextUiModel        mModel;
-    private              RadioGroup         mRadioGroup;
+    private static final String TAG = "TestAssetEditLayout";
+    private View editLayout;
+    private View fontList;
+    private View colorLayout;
+    private Activity mActivity;
+    private CounterEditText mEditText;
+    private InputMethodManager mInputMethodManager;
+    private TextUiModel mModel;
+    private RadioGroup mRadioGroup;
 
     public TestAssetEditLayout(Context context) {
         this(context, null);

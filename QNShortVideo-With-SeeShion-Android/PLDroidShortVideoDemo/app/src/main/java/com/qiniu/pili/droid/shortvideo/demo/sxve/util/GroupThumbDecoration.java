@@ -10,10 +10,7 @@ public class GroupThumbDecoration extends RecyclerView.ItemDecoration {
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
         int position = parent.getChildLayoutPosition(view);
         if (position != 0) {
-            int insetStart = (int) TypedValue.applyDimension(
-                    TypedValue.COMPLEX_UNIT_DIP,
-                    10,
-                    parent.getContext().getResources().getDisplayMetrics());
+            int insetStart = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10, parent.getContext().getResources().getDisplayMetrics());
             outRect.set(insetStart, 0, 0, 0);
         }
     }

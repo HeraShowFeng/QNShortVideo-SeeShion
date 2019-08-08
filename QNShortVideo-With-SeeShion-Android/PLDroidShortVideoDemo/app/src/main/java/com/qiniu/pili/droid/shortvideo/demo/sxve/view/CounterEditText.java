@@ -74,11 +74,7 @@ public class CounterEditText extends EditText {
         super.onDraw(canvas);
 
         if (maxLength > 0) {
-            canvas.drawText(
-                    countStr,
-                    getWidth() - paddingRight - bounds.width(),
-                    getHeight() + getScrollY() - getPaddingBottom(),
-                    countPaint);
+            canvas.drawText(countStr, getWidth() - paddingRight - bounds.width(), getHeight() + getScrollY() - getPaddingBottom(), countPaint);
         }
     }
 }

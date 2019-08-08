@@ -9,9 +9,9 @@ import com.qiniu.pili.droid.shortvideo.demo.sxve.util.Size;
 
 public class GroupModel {
     private SparseArray<AssetModel> mAssets = new SparseArray<>();
-    private View                    mThumbTarget;
-    private View                    mTemplateTarget;
-    private AssetModel              mActiveLayer;
+    private View mThumbTarget;
+    private View mTemplateTarget;
+    private AssetModel mActiveLayer;
 
     public void add(AssetModel assetModel) {
         mAssets.put(assetModel.ui.index, assetModel);

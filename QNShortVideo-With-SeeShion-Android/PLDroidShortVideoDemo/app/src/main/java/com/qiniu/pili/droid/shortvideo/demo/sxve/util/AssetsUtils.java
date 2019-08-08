@@ -18,9 +18,7 @@ public class AssetsUtils {
                 }
 
                 for (String name : names) {
-                    copyDirFromAssets(context,
-                            src.equals("") ? name : src + File.separator + name,
-                            dest + File.separator + name);
+                    copyDirFromAssets(context, src.equals("") ? name : src + File.separator + name, dest + File.separator + name);
                 }
             } else {
                 copyFileFromAssets(context, src, dest);

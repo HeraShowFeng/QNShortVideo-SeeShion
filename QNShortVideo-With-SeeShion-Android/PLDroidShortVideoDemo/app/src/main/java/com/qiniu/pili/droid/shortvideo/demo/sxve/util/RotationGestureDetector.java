@@ -72,16 +72,14 @@ public class RotationGestureDetector {
             case MotionEvent.ACTION_POINTER_UP:
                 mPointerIndex2 = INVALID_POINTER_INDEX;
                 break;
-                default:break;
+            default:
+                break;
         }
         return true;
     }
 
-    private float calculateAngleBetweenLines(float fx1, float fy1, float fx2, float fy2,
-                                             float sx1, float sy1, float sx2, float sy2) {
-        return calculateAngleDelta(
-                (float) Math.toDegrees((float) Math.atan2((fy1 - fy2), (fx1 - fx2))),
-                (float) Math.toDegrees((float) Math.atan2((sy1 - sy2), (sx1 - sx2))));
+    private float calculateAngleBetweenLines(float fx1, float fy1, float fx2, float fy2, float sx1, float sy1, float sx2, float sy2) {
+        return calculateAngleDelta((float) Math.toDegrees((float) Math.atan2((fy1 - fy2), (fx1 - fx2))), (float) Math.toDegrees((float) Math.atan2((sy1 - sy2), (sx1 - sx2))));
     }
 
     private float calculateAngleDelta(float angleFrom, float angleTo) {
@@ -108,6 +106,7 @@ public class RotationGestureDetector {
 
         /**
          * 旋转手势的回调
+         *
          * @param rotationDetector
          * @return
          */

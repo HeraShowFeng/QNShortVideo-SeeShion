@@ -16,13 +16,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TemplateModel {
-    private static final String    TAG                = "TemplateModel";
-    private static final String    CONFIG_FILE_NAME   = "config.json";
-    private List<AssetModel>       mAssets            = new ArrayList<>();
-    private List<AssetModel>       mReplaceableAssets = new ArrayList<>();
-    public SparseArray<GroupModel> groups             = new SparseArray<>();
-    public final int               fps;
-    public int                     groupSize;
+    private static final String TAG = "TemplateModel";
+    private static final String CONFIG_FILE_NAME = "config.json";
+    private List<AssetModel> mAssets = new ArrayList<>();
+    private List<AssetModel> mReplaceableAssets = new ArrayList<>();
+    public SparseArray<GroupModel> groups = new SparseArray<>();
+    public final int fps;
+    public int groupSize;
 
     @WorkerThread
     public TemplateModel(String templateFolder, AssetDelegate delegate) throws IOException, JSONException {

@@ -35,11 +35,7 @@ public class TimelineAdapter extends RecyclerView.Adapter<TimelineAdapter.Timeli
     public void onBindViewHolder(@NonNull TimelineHolder holder, int position) {
         RequestOptions options = RequestOptions.frameOf(mTimePositions[position]);
         RequestOptions cacheOptions = RequestOptions.diskCacheStrategyOf(DiskCacheStrategy.NONE);
-        Glide.with(holder.itemView.getContext())
-                .load(mUri)
-                .apply(options)
-                .apply(cacheOptions)
-                .into(((ImageView) holder.itemView));
+        Glide.with(holder.itemView.getContext()).load(mUri).apply(options).apply(cacheOptions).into(((ImageView) holder.itemView));
     }
 
     @Override

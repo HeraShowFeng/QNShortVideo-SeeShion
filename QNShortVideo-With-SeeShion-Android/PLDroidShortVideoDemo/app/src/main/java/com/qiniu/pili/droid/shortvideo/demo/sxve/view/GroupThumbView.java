@@ -18,16 +18,16 @@ import com.qiniu.pili.droid.shortvideo.demo.sxve.util.Size;
 
 
 public class GroupThumbView extends View {
-    private static final String     TAG = "GroupThumbView";
-    private              GroupModel mGroup;
-    private              float      mOverallScale;
-    private              TextPaint  mTextPaint;
-    private              Rect       mRect;
-    private              int        mRectSize;
-    private              int        mRectColor;
-    private              Paint      mRectPaint;
-    private              Rect       mStrokeRect;
-    private              int        mStrokeSize;
+    private static final String TAG = "GroupThumbView";
+    private GroupModel mGroup;
+    private float mOverallScale;
+    private TextPaint mTextPaint;
+    private Rect mRect;
+    private int mRectSize;
+    private int mRectColor;
+    private Paint mRectPaint;
+    private Rect mStrokeRect;
+    private int mStrokeSize;
 
     public GroupThumbView(Context context) {
         this(context, null);
@@ -43,10 +43,7 @@ public class GroupThumbView extends View {
 
         mTextPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
         mTextPaint.setColor(Color.BLACK);
-        float textSize = TypedValue.applyDimension(
-                TypedValue.COMPLEX_UNIT_SP,
-                12,
-                displayMetrics);
+        float textSize = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 12, displayMetrics);
         mTextPaint.setTextSize(textSize);
 
         mRect = new Rect();
@@ -108,10 +105,7 @@ public class GroupThumbView extends View {
         float height = mTextPaint.descent() + mTextPaint.ascent();
 
         canvas.drawRect(mRect, mRectPaint);
-        canvas.drawText(indexStr,
-                mRect.left + (mRect.width() - width) / 2,
-                mRect.top + (mRect.height() - height) / 2,
-                mTextPaint);
+        canvas.drawText(indexStr, mRect.left + (mRect.width() - width) / 2, mRect.top + (mRect.height() - height) / 2, mTextPaint);
     }
 
     private void drawStroke(Canvas canvas) {

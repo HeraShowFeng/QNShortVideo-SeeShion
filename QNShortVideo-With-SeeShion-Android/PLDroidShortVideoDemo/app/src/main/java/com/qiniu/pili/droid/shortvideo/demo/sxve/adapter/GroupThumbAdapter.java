@@ -10,8 +10,8 @@ import com.qiniu.pili.droid.shortvideo.demo.sxve.model.TemplateModel;
 import com.qiniu.pili.droid.shortvideo.demo.sxve.view.GroupThumbView;
 
 public class GroupThumbAdapter extends RecyclerView.Adapter<GroupThumbAdapter.GroupThumbHolder> {
-    private TemplateModel          mTemplateModel;
-    private int                    mSelectedItem;
+    private TemplateModel mTemplateModel;
+    private int mSelectedItem;
     private OnItemSelectedListener mOnItemSelectedListener;
 
     public GroupThumbAdapter() {
@@ -68,9 +68,10 @@ public class GroupThumbAdapter extends RecyclerView.Adapter<GroupThumbAdapter.Gr
         }
     }
 
-    public interface OnItemSelectedListener{
+    public interface OnItemSelectedListener {
         /**
          * 选择模板中要替换位置的回调
+         *
          * @param index
          */
         void onItemSelected(int index);

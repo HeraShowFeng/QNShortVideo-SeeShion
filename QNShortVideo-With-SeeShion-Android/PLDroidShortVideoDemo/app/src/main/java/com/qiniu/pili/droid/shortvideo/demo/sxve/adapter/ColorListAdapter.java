@@ -64,6 +64,7 @@ public class ColorListAdapter extends RecyclerView.Adapter<ColorListAdapter.Colo
     public interface OnColorSelectedListener {
         /**
          * 选择颜色的回调
+         *
          * @param color
          */
         void onColorSelected(int color);

@@ -35,13 +35,12 @@ import static com.zhihu.matisse.MimeType.JPEG;
 import static com.zhihu.matisse.MimeType.PNG;
 
 
-
 public class VeFunctionActivity extends AppCompatActivity {
 
-    public static final  String TEMPLATE_FOLDER = "template";
-    public static final  String DYNAMIC_FOLDER = "dynamic";
-    private static final int    REQUEST_PREVIEW_SOURCE = 11;
-    private              View   mProgressBar;
+    public static final String TEMPLATE_FOLDER = "template";
+    public static final String DYNAMIC_FOLDER = "dynamic";
+    private static final int REQUEST_PREVIEW_SOURCE = 11;
+    private View mProgressBar;
 
 
     @Override
@@ -97,8 +96,7 @@ public class VeFunctionActivity extends AppCompatActivity {
         copyAudio("aaa.mp3");
         copyAudio("bbb.mp3");
         mProgressBar.setVisibility(View.GONE);
-        if (ContextCompat.checkSelfPermission(VeFunctionActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                != PackageManager.PERMISSION_GRANTED) {
+        if (ContextCompat.checkSelfPermission(VeFunctionActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(VeFunctionActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_STORAGE_PERMISSION);
         } else {
             pickMedia();
@@ -121,15 +119,7 @@ public class VeFunctionActivity extends AppCompatActivity {
     }
 
     private void pickMedia() {
-        Matisse.from(this)
-                .choose(EnumSet.of(JPEG, PNG), false)
-                .showSingleMediaType(true)
-                .maxSelectable(100)
-                .setMinSelect(3)
-                .picDetail(false)
-                .countable(true)
-                .theme(R.style.Matisse_Dracula)
-                .forResult(REQUEST_PREVIEW_SOURCE);
+        Matisse.from(this).choose(EnumSet.of(JPEG, PNG), false).showSingleMediaType(true).maxSelectable(100).setMinSelect(3).picDetail(false).countable(true).theme(R.style.Matisse_Dracula).forResult(REQUEST_PREVIEW_SOURCE);
     }
 
     @Override

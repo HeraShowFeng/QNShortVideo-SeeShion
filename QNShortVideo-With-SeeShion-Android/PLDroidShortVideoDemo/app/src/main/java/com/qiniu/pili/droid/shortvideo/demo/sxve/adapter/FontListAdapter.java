@@ -21,7 +21,7 @@ import java.util.List;
 public class FontListAdapter extends RecyclerView.Adapter<FontListAdapter.FontListHolder> {
 
     private List<FontModel> mFontModels;
-    private int             mSelectedItem;
+    private int mSelectedItem;
 
     @NonNull
     @Override
@@ -89,6 +89,7 @@ public class FontListAdapter extends RecyclerView.Adapter<FontListAdapter.FontLi
     public interface OnFontSelectedListener {
         /**
          * 选择字体的回调
+         *
          * @param typeface
          */
         void onFontSelected(Typeface typeface);

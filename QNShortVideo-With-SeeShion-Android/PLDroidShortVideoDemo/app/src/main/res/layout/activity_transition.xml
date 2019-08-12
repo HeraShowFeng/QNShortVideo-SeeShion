@@ -115,9 +115,9 @@
         </LinearLayout>
     </LinearLayout>
 
-    <com.qiniu.pili.droid.shortvideo.demo.view.TransitionEditView
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.TransitionEditView
         android:id="@+id/transition_edit_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"></com.qiniu.pili.droid.shortvideo.demo.view.TransitionEditView>
+        android:visibility="gone"></com.qiniu.pili.droid.shortvideo.demo.seeshion.view.TransitionEditView>
 </FrameLayout>

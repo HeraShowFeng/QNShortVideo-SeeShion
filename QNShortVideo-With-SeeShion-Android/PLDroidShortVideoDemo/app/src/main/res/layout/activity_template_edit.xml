@@ -96,7 +96,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guide_line" />
 
-    <com.qiniu.pili.droid.shortvideo.demo.sxve.view.TestAssetEditLayout
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.sxve.view.TestAssetEditLayout
         android:id="@+id/text_edit_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

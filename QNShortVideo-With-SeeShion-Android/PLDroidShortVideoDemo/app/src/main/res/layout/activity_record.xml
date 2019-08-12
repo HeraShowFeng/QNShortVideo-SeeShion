@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:clipChildren="false">
 
-    <com.qiniu.pili.droid.shortvideo.demo.view.SquareGLSurfaceView
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SquareGLSurfaceView
         android:id="@+id/preview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -26,7 +26,7 @@
             android:onClick="onClickBrightness"
             android:src="@mipmap/btn_brightness" />
 
-        <com.qiniu.pili.droid.shortvideo.demo.view.VerticalSeekBar
+        <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.VerticalSeekBar
             android:id="@+id/adjust_brightness"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -119,7 +119,7 @@
         android:layout_height="0dp"
         android:clipChildren="false">
 
-        <com.qiniu.pili.droid.shortvideo.demo.view.FocusIndicator
+        <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.FocusIndicator
             android:id="@+id/focus_indicator"
             android:layout_width="100dp"
             android:layout_height="100dp" />
@@ -176,7 +176,7 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <com.qiniu.pili.droid.shortvideo.demo.view.SectionProgressBar
+        <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SectionProgressBar
             android:id="@+id/record_progressbar"
             android:layout_width="match_parent"
             android:layout_height="8dp" />

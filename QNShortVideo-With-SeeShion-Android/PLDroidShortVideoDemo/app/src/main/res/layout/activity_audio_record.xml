@@ -5,7 +5,7 @@
     android:background="@android:color/background_dark"
     android:orientation="vertical">
 
-    <com.qiniu.pili.droid.shortvideo.demo.view.SectionProgressBar
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SectionProgressBar
         android:id="@+id/record_progressbar"
         android:layout_width="match_parent"
         android:layout_height="8dp" />

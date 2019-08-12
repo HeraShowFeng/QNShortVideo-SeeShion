@@ -6,7 +6,7 @@
     android:layout_marginTop="5dp"
     android:gravity="center_vertical">
 
-    <com.qiniu.pili.droid.shortvideo.demo.view.ObservableHorizontalScrollView
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.ObservableHorizontalScrollView
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content" />
 
         </RelativeLayout>
-    </com.qiniu.pili.droid.shortvideo.demo.view.ObservableHorizontalScrollView>
+    </com.qiniu.pili.droid.shortvideo.demo.seeshion.view.ObservableHorizontalScrollView>
 
     <ImageView
         android:id="@+id/middle_line_image"

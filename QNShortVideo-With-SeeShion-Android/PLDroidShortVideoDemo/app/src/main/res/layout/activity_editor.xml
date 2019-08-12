@@ -36,13 +36,13 @@
             android:onClick="onSaveEdit" />
     </LinearLayout>
 
-    <com.qiniu.pili.droid.shortvideo.demo.view.SquareRelativeLayout
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SquareRelativeLayout
         android:id="@+id/preview_wrapper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/title_layout">
 
-        <com.qiniu.pili.droid.shortvideo.demo.view.SquareGLSurfaceView
+        <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SquareGLSurfaceView
             android:id="@+id/preview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
@@ -59,13 +59,13 @@
             android:onClick="onClickTogglePlayback"
             android:src="@mipmap/btn_pause" />
 
-        <com.qiniu.pili.droid.shortvideo.demo.view.FrameListView
+        <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.FrameListView
             android:id="@+id/frame_list_view"
             android:layout_width="match_parent"
             android:layout_alignTop="@id/preview"
             android:layout_height="wrap_content">
 
-        </com.qiniu.pili.droid.shortvideo.demo.view.FrameListView>
+        </com.qiniu.pili.droid.shortvideo.demo.seeshion.view.FrameListView>
 
         <LinearLayout
             android:id="@+id/speed_panel"
@@ -159,20 +159,20 @@
                 android:textColor="@color/speedTextNormal"
                 android:textSize="15sp" />
         </LinearLayout>
-    </com.qiniu.pili.droid.shortvideo.demo.view.SquareRelativeLayout>
+    </com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SquareRelativeLayout>
 
 
-    <com.qiniu.pili.droid.shortvideo.demo.view.TextSelectorPanel
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.TextSelectorPanel
         android:id="@+id/text_selector_panel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />
 
-    <com.qiniu.pili.droid.shortvideo.demo.view.PaintSelectorPanel
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.PaintSelectorPanel
         android:id="@+id/paint_selector_panel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"></com.qiniu.pili.droid.shortvideo.demo.view.PaintSelectorPanel>
+        android:visibility="gone"></com.qiniu.pili.droid.shortvideo.demo.seeshion.view.PaintSelectorPanel>
 
     <LinearLayout
         android:id="@+id/editing_panel"
@@ -319,7 +319,7 @@
             </LinearLayout>
         </HorizontalScrollView>
 
-        <com.qiniu.pili.droid.shortvideo.demo.view.ImageSelectorPanel
+        <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.ImageSelectorPanel
             android:id="@+id/image_selector_panel"
             android:layout_width="match_parent"
             android:layout_height="0dp"

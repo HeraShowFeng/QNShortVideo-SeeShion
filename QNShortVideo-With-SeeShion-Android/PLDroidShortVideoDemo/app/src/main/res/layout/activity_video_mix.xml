@@ -107,7 +107,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <com.qiniu.pili.droid.shortvideo.demo.view.SquareLinearLayout
+        <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SquareLinearLayout
             android:id="@+id/previewParent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
             android:onClick="onPreview2Click"
             android:orientation="vertical">
 
-            <com.qiniu.pili.droid.shortvideo.demo.view.VideoMixPlayerLayout
+            <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.VideoMixPlayerLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -135,9 +135,9 @@
                     android:id="@+id/cover1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
-            </com.qiniu.pili.droid.shortvideo.demo.view.VideoMixPlayerLayout>
+            </com.qiniu.pili.droid.shortvideo.demo.seeshion.view.VideoMixPlayerLayout>
 
-            <com.qiniu.pili.droid.shortvideo.demo.view.VideoMixPlayerLayout
+            <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.VideoMixPlayerLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -154,8 +154,8 @@
                     android:id="@+id/cover2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
-            </com.qiniu.pili.droid.shortvideo.demo.view.VideoMixPlayerLayout>
-        </com.qiniu.pili.droid.shortvideo.demo.view.SquareLinearLayout>
+            </com.qiniu.pili.droid.shortvideo.demo.seeshion.view.VideoMixPlayerLayout>
+        </com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SquareLinearLayout>
 
         <TextView
             android:id="@+id/tipTextView"

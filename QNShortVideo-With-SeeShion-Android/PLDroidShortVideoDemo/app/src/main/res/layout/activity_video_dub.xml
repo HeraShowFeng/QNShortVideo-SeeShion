@@ -36,19 +36,19 @@
             android:onClick="onClickSaveDubbing" />
     </LinearLayout>
 
-    <com.qiniu.pili.droid.shortvideo.demo.view.SquareRelativeLayout
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SquareRelativeLayout
         android:id="@+id/preview_wrapper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/title_layout">
 
-        <com.qiniu.pili.droid.shortvideo.demo.view.SquareGLSurfaceView
+        <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SquareGLSurfaceView
             android:id="@+id/preview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-    </com.qiniu.pili.droid.shortvideo.demo.view.SquareRelativeLayout>
+    </com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SquareRelativeLayout>
 
-    <com.qiniu.pili.droid.shortvideo.demo.view.SectionProgressBar
+    <com.qiniu.pili.droid.shortvideo.demo.seeshion.view.SectionProgressBar
         android:id="@+id/record_progressbar"
         android:layout_width="match_parent"
         android:layout_height="8dp" />

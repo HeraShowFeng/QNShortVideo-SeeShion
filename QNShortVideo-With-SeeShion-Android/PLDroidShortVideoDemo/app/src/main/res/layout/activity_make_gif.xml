@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.qiniu.pili.droid.shortvideo.demo.activity.MakeGIFActivity">
+    tools:context=".seeshion.activity.MakeGIFActivity">
 
     <GridView
         android:id="@+id/key_frame_grid"

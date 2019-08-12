@@ -145,7 +145,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/guide_line">
 
-        <com.qiniu.pili.droid.shortvideo.demo.sxve.view.VideoClipLayout
+        <com.qiniu.pili.droid.shortvideo.demo.seeshion.sxve.view.VideoClipLayout
             android:id="@+id/sx_video_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

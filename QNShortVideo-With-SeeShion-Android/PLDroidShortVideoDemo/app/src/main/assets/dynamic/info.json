@@ -1,0 +1,5 @@
+[
+	{"name":"简易风格", "folder":"Simple", "desciption":"简单的动态图片切换风格"},
+	{"name":"中国风", "folder":"Chinese Style", "desciption":"高级切换风格, 展示了蒙版，专场，调色等效果"},
+	{"name":"相册", "folder":"Album", "desciption":"相册风格，视频结尾文字会自动替换为当前日期。因为模板设计原因，建议选择照片大于5张。"}
+]

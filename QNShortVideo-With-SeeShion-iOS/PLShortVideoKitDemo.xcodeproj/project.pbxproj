@@ -201,6 +201,7 @@
 		76F41C52219D77B40099E668 /* mulitRate.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F41C51219D77B40099E668 /* mulitRate.png */; };
 		9343A8C01F66763A007213BD /* Time_Machine_No_Reverser.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343A8BE1F66763A007213BD /* Time_Machine_No_Reverser.png */; };
 		9343A8C11F66763A007213BD /* Time_Machine_Reverser.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343A8BF1F66763A007213BD /* Time_Machine_Reverser.png */; };
+		9C4A536A230688190038F1B7 /* test in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A5369230688190038F1B7 /* test */; };
 		9C69117522F2EDAD004A7A49 /* SXVideoEnging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C69103422F2EDAC004A7A49 /* SXVideoEnging.framework */; };
 		9C69117622F2EDAD004A7A49 /* test123.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C69103722F2EDAC004A7A49 /* test123.m4a */; };
 		9C6911EC22F2EDAD004A7A49 /* testmusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C6910CC22F2EDAC004A7A49 /* testmusic.m4a */; };
@@ -284,7 +285,6 @@
 		9C69123B22F2EDAD004A7A49 /* DeleteChooseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C69116F22F2EDAD004A7A49 /* DeleteChooseImageView.m */; };
 		9C69123C22F2EDAD004A7A49 /* SXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C69117122F2EDAD004A7A49 /* SXViewController.m */; };
 		9C69123D22F2EDAD004A7A49 /* SXEditViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C69117422F2EDAD004A7A49 /* SXEditViewController.mm */; };
-		9C77128222FC426C004852AF /* test in Resources */ = {isa = PBXBuildFile; fileRef = 9C77128122FC426C004852AF /* test */; };
 		AA09EB2A22E8672C001BBA54 /* PLSDrawBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09EB2922E8672C001BBA54 /* PLSDrawBar.m */; };
 		AA09EB2F22E86856001BBA54 /* PLSDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09EB2B22E86856001BBA54 /* PLSDrawView.m */; };
 		AA09EB3022E86856001BBA54 /* PLSDrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09EB2E22E86856001BBA54 /* PLSDrawModel.m */; };
@@ -577,6 +577,7 @@
 		85B60FAE619932ED649E6840 /* Pods-PLShortVideoKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLShortVideoKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLShortVideoKitDemo/Pods-PLShortVideoKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9343A8BE1F66763A007213BD /* Time_Machine_No_Reverser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Time_Machine_No_Reverser.png; path = images/Time_Machine_No_Reverser.png; sourceTree = "<group>"; };
 		9343A8BF1F66763A007213BD /* Time_Machine_Reverser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Time_Machine_Reverser.png; path = images/Time_Machine_Reverser.png; sourceTree = "<group>"; };
+		9C4A5369230688190038F1B7 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
 		9C69103422F2EDAC004A7A49 /* SXVideoEnging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SXVideoEnging.framework; sourceTree = "<group>"; };
 		9C69103722F2EDAC004A7A49 /* test123.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test123.m4a; sourceTree = "<group>"; };
 		9C6910CC22F2EDAC004A7A49 /* testmusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = testmusic.m4a; sourceTree = "<group>"; };
@@ -734,7 +735,6 @@
 		9C69117122F2EDAD004A7A49 /* SXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXViewController.m; sourceTree = "<group>"; };
 		9C69117322F2EDAD004A7A49 /* SXEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXEditViewController.h; sourceTree = "<group>"; };
 		9C69117422F2EDAD004A7A49 /* SXEditViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SXEditViewController.mm; sourceTree = "<group>"; };
-		9C77128122FC426C004852AF /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
 		AA09EB2822E8672B001BBA54 /* PLSDrawBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSDrawBar.h; sourceTree = "<group>"; };
 		AA09EB2922E8672C001BBA54 /* PLSDrawBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSDrawBar.m; sourceTree = "<group>"; };
 		AA09EB2B22E86856001BBA54 /* PLSDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSDrawView.m; sourceTree = "<group>"; };
@@ -1285,7 +1285,7 @@
 		9C69103622F2EDAC004A7A49 /* SXResource */ = {
 			isa = PBXGroup;
 			children = (
-				9C77128122FC426C004852AF /* test */,
+				9C4A5369230688190038F1B7 /* test */,
 				9C69103722F2EDAC004A7A49 /* test123.m4a */,
 				9C6910CC22F2EDAC004A7A49 /* testmusic.m4a */,
 				9C6910CD22F2EDAC004A7A49 /* test3.mp3 */,
@@ -1720,7 +1720,7 @@
 				0A06924D1E8A3B590035CB7B /* btn_camera_cancel_b@2x.png in Resources */,
 				9C6911EF22F2EDAD004A7A49 /* test1.mp3 in Resources */,
 				0A06924B1E8A3B590035CB7B /* btn_camera_cancel_a@2x.png in Resources */,
-				9C77128222FC426C004852AF /* test in Resources */,
+				9C4A536A230688190038F1B7 /* test in Resources */,
 				0A398FA01ED6698F00996229 /* cut_bar_progress@3x.png in Resources */,
 				0AEE565F20AD765D00FBA0D1 /* jikuai.png in Resources */,
 				0AD98DC6203188CE006551EC /* h265_video in Resources */,

@@ -1,8 +1,6 @@
 # 1 QNShortVideo with SeeShion
 这个开源示例代码演示了 [七牛短视频](https://www.qiniu.com/products/plsv) 快速集成视杏 AE 效果的集成姿势。   
 
-#####注：考虑到视杏 iOS framework 比较大，难以管理，在上传前对 framework 做了压缩处理，需要到 ⁨⁨QNShortVideo-SeeShion⁩ ▸ ⁨QNShortVideo-With-SeeShion-iOS⁩ ▸ ⁨PLShortVideoKitDemo⁩ ▸ ⁨SXSDK⁩ ▸ ⁨SXSDK-framework⁩ 解压 SXVideoEnging.framework.zip，即可运行。
-
 # 2 功能点介绍
 
 这个示例代码中，主要在视频制作的时候，演示了视杏标准模版，动态模版，模版实时预览的效果。详细功能展示如下：

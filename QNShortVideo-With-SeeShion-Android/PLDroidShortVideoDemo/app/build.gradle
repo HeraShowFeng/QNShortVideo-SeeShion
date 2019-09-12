@@ -11,7 +11,7 @@ android {
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        applicationId "com.qiniu.pili.droid.shortvideo.demo"
+        applicationId "com.qiniu.pili.droid.shortvideo.demo.seeshion"
         minSdkVersion 18
         targetSdkVersion 28
         versionCode 26
@@ -37,7 +37,7 @@ dependencies {
     implementation files('libs/pldroid-player-2.1.8.jar')
     implementation files('libs/EasyAR.jar')
     implementation files('libs/EasyAR3D.jar')
-    implementation files('libs/SXVideoEngine-1.1.4.aar')
+    implementation files('libs/SXVideoEngine-1.1.8.aar')
 
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'

@@ -285,6 +285,8 @@
 		9C69123B22F2EDAD004A7A49 /* DeleteChooseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C69116F22F2EDAD004A7A49 /* DeleteChooseImageView.m */; };
 		9C69123C22F2EDAD004A7A49 /* SXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C69117122F2EDAD004A7A49 /* SXViewController.m */; };
 		9C69123D22F2EDAD004A7A49 /* SXEditViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C69117422F2EDAD004A7A49 /* SXEditViewController.mm */; };
+		9CEDC37A2329DCD50068DA3F /* SXVideoEnging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C69103422F2EDAC004A7A49 /* SXVideoEnging.framework */; };
+		9CEDC37B2329DCD50068DA3F /* SXVideoEnging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C69103422F2EDAC004A7A49 /* SXVideoEnging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AA09EB2A22E8672C001BBA54 /* PLSDrawBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09EB2922E8672C001BBA54 /* PLSDrawBar.m */; };
 		AA09EB2F22E86856001BBA54 /* PLSDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09EB2B22E86856001BBA54 /* PLSDrawView.m */; };
 		AA09EB3022E86856001BBA54 /* PLSDrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA09EB2E22E86856001BBA54 /* PLSDrawModel.m */; };
@@ -328,6 +330,20 @@
 		C3FCBFD91F305B8A007EBB10 /* icon_gif.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FCBFD81F305B8A007EBB10 /* icon_gif.png */; };
 		F360B89E036039A66815D9FE /* libPods-PLShortVideoKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AEAFA0012D959C08AB23AE /* libPods-PLShortVideoKitDemo.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9CEDC37C2329DCD50068DA3F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9CEDC37B2329DCD50068DA3F /* SXVideoEnging.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A0692311E8A3B590035CB7B /* btn_bar_back_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_bar_back_a@2x.png"; path = "images/btn_bar_back_a@2x.png"; sourceTree = "<group>"; };
@@ -810,6 +826,7 @@
 				0A0DCA241FB070DC00F1446F /* libbz2.1.0.tbd in Frameworks */,
 				C3A78FA11F95F61F00C3F2D6 /* AVFoundation.framework in Frameworks */,
 				0A55D4661F70CCBF009900AD /* libMuseProcessor.a in Frameworks */,
+				9CEDC37A2329DCD50068DA3F /* SXVideoEnging.framework in Frameworks */,
 				F360B89E036039A66815D9FE /* libPods-PLShortVideoKitDemo.a in Frameworks */,
 				9C69117522F2EDAD004A7A49 /* SXVideoEnging.framework in Frameworks */,
 			);
@@ -1541,6 +1558,7 @@
 				0A9435791E6CA2E2008845A3 /* Frameworks */,
 				0A94357A1E6CA2E2008845A3 /* Resources */,
 				B051BAB51EADFEF900385FF0 /* ShellScript */,
+				9CEDC37C2329DCD50068DA3F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
